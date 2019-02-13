@@ -1,5 +1,2 @@
 #!/bin/bash
-while [ true ]
-do
-netcat -vlp 1337 &>> passwd.txt
-done
+netcat -vLp 1337
